@@ -2,7 +2,7 @@ import React from "react";
 
 function OurServices() {
     return (
-        <div className="flex flex-col justify-center   px-32 max-md:px-5">
+        <div className="flex flex-col justify-center max-w-[1400px] mx-auto  px-16 max-md:px-5">
             {/* Header */}
             <div>
 
