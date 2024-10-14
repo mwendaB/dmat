@@ -14,25 +14,25 @@ const AboutUs = () => {
 
         {/* Text Section */}
         <div className="space-y-8 ">
-        <div className="w-[400px]  relative font-bold text-start">
+          <div className="w-[400px]  relative font-bold text-start">
 
 
-<div className="text-5xl w-[400px] font-bold text-start text-neutral-900 max-md:max-w-full max-md:text-4xl ">
-About Us
-    <div className="flex items-center justify-start absolute ">
+            <div className="text-5xl w-[400px] font-bold text-start text-neutral-900 max-md:max-w-full max-md:text-4xl ">
+              About Us
+              <div className="flex items-center justify-start absolute ">
 
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="120"
-            height="4"
-            viewBox="0 0 120 4"
-            fill="none"
-        >
-            <path d="M2 2H118" stroke="#B00010" strokeWidth="4" strokeLinecap="round" />
-        </svg>
-    </div>
-</div>
-</div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="120"
+                  height="4"
+                  viewBox="0 0 120 4"
+                  fill="none"
+                >
+                  <path d="M2 2H118" stroke="#B00010" strokeWidth="4" strokeLinecap="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
 
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-gray-800">Quality Over Quantity</h3>
@@ -44,7 +44,7 @@ About Us
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-gray-800">Meaningful Engagement</h3>
             <p className="text-gray-600">
-              By focusing on crafting meaningful and engaging content, we aim to cut through the clutter of information overload and effectively capture the attention of our client's target audience.
+              By focusing on crafting meaningful and engaging content, we aim to cut through the clutter of information overload and effectively capture the attention of our client&apos;s target audience.
             </p>
           </div>
 
