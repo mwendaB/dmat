@@ -107,7 +107,7 @@ const Page = () => {
               onMouseLeave={handleHeadingLeave}
             >
               <Link to={heading.path} style={{textDecoration:'none'}}>
-              <Typography className="heading-with-line" sx={{ fontSize:{xs:'25px', md:'40px'}, position: 'relative', overflow: 'hidden', color: 'white', cursor: 'pointer', marginBottom: '20px', '&:hover':{color:'#00c062'}}}>
+              <Typography className="heading-with-line" sx={{ fontSize:{xs:'25px', md:'40px'}, position: 'relative', overflow: 'hidden', color: 'white', cursor: 'pointer', marginBottom: '20px', '&:hover':{color:'#DC143C'}}}>
                 {heading.title}
                 <span className="hover-line"></span>
               </Typography>

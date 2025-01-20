@@ -38,9 +38,9 @@ const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
 
 
 const actions = [
-  { icon: <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}><HomeIcon sx={{color:'#00c062', mt:'8px'}}/></Link>, name: 'Home',},
-  { icon: <Link to='/contactUs' style={{ textDecoration: 'none', color: 'inherit' }}><ContactMailIcon sx={{color:'#00c062', mt:'8px'}}/></Link>, name: 'Contact' ,},
-  { icon: <Link to='/portfolio' style={{ textDecoration: 'none', color: 'inherit' }}><DatasetIcon sx={{color:'#00c062', mt:'8px'}}/></Link>, name: 'Portfolio' ,},
+  { icon: <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}><HomeIcon sx={{color:'#DC143C', mt:'8px'}}/></Link>, name: 'Home',},
+  { icon: <Link to='/contactUs' style={{ textDecoration: 'none', color: 'inherit' }}><ContactMailIcon sx={{color:'#DC143C', mt:'8px'}}/></Link>, name: 'Contact' ,},
+  { icon: <Link to='/portfolio' style={{ textDecoration: 'none', color: 'inherit' }}><DatasetIcon sx={{color:'#DC143C', mt:'8px'}}/></Link>, name: 'Portfolio' ,},
 ];
 
 export default function PlaygroundSpeedDial() {

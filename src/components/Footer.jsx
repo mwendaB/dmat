@@ -16,14 +16,14 @@ const Footer = () => {
 
   return (
     <>
-    {/* <Divider sx={{marginTop:'2rem', borderColor:'#00c062'}}/> */}
+    {/* <Divider sx={{marginTop:'2rem', borderColor:'#DC143C'}}/> */}
     <br></br>
     <Box sx={{marginTop:{xs:'2rem',md:'10%'}, backgroundColor: darkMode ? '#090808' : '#f6fbf6', color: 'white', py: 3 }}>
       <Container>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Typography variant="body2" sx={{fontFamily:'Inter', fontSize:'1.2rem',color:'#c9c7c7'}}>
             <Link href="#" color="inherit" underline="none">
-              Gen Marketing
+              DMA Marketing
             </Link>
             {' | '}
             <Link href="#" color="inherit" underline="none">
@@ -34,7 +34,7 @@ const Footer = () => {
             {navItemsRight.map((element, index) => (
               <ListItem key={index} disablePadding>
                 <Link href={element.path} target="_blank" rel="noopener noreferrer" color="inherit">
-                  <ListItemButton sx={{ color: 'white', '&:hover': {color:'#00c062'}, }}>
+                  <ListItemButton sx={{ color: 'white', '&:hover': {color:'#DC143C'}, }}>
                     {element.icon}
                   </ListItemButton>
                 </Link>

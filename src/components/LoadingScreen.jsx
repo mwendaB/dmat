@@ -185,7 +185,7 @@ export default LoadingScreen;
 //         className="bg"
 //         style={{
 //           animation: 'slide 3s ease-in-out infinite alternate',
-//           backgroundImage: 'linear-gradient(-60deg, #00c062 50%, #212427 50%)',
+//           backgroundImage: 'linear-gradient(-60deg, #DC143C 50%, #212427 50%)',
 //           bottom: 0,
 //           left: '-50%',
 //           opacity: 0.5,

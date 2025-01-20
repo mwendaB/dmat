@@ -42,7 +42,7 @@ const About = () => {
             <Fade cascade damping={0.1} duration={3000} >
               <Box sx={{display:'flex', alignItems:'center', justifyContent: 'center',}}>
 
-              <Typography variant="h4" sx={{ fontWeight: '600', fontFamily:'Poppins', color:'#00c062', textTransform: 'uppercase'}}>
+              <Typography variant="h4" sx={{ fontWeight: '600', fontFamily:'Poppins', color:'#DC143C', textTransform: 'uppercase'}}>
                 About Us
               </Typography>
               </Box>
@@ -55,7 +55,7 @@ const About = () => {
             <Fade cascade duration={3000} >
             <Box sx={{ textAlign: 'center', width: {xs:'95%', md:'75%'} , margin:'auto'}}>
               <Typography variant="h4" sx={{ fontWeight: '400', fontFamily:'Inter',  color:'#555555'}}>
-                <span className='spanTxt'>At Gen Marketing we are passionate, </span> about crafting impactful strategies that resonate with your audience. With a focus on innovation and creativity, we deliver tailored solutions that drive results and foster long-term growth for your brand. From brand development to campaign execution, we're committed to <span className='spanTxt'>helping you achieve your business objectives.</span> 
+                <span className='spanTxt'>At Dma Marketing we are passionate, </span> about crafting impactful strategies that resonate with your audience. With a focus on innovation and creativity, we deliver tailored solutions that drive results and foster long-term growth for your brand. From brand development to campaign execution, we're committed to <span className='spanTxt'>helping you achieve your business objectives.</span> 
               </Typography>
             </Box>
             </Fade>

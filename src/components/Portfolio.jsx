@@ -64,7 +64,7 @@ const Portfolio = () => {
     
               <Box sx={{display:'flex', alignItems:'center', justifyContent: 'center',}}>
 
-              <Typography variant="h4" sx={{ fontWeight: '600', fontFamily:'Poppins', color:'#00c062', textTransform: 'uppercase'}}>
+              <Typography variant="h4" sx={{ fontWeight: '600', fontFamily:'Poppins', color:'#DC143C', textTransform: 'uppercase'}}>
                   Portfolio
               </Typography>
               </Box>
@@ -119,7 +119,7 @@ const Portfolio = () => {
           <Box sx={{ textAlign: 'center', mt:'30px'}}>
             <Fade cascade duration={3000} className="scroll-animation">
                 <Link to='/portfolio' style={{ textDecoration: 'none', textAlign:'center', color:'white',}}>
-                  <Button variant='outlined' startIcon={<ArrowForwardIcon/>} sx={{borderColor:'white', boxShadow:'none', color:'#c9c7c7', '&:hover': {color:'#00c062', borderColor:'white'}, fontFamily:'Inter',}}>
+                  <Button variant='outlined' startIcon={<ArrowForwardIcon/>} sx={{borderColor:'white', boxShadow:'none', color:'#c9c7c7', '&:hover': {color:'#DC143C', borderColor:'white'}, fontFamily:'Inter',}}>
                     See all our projects
                   </Button>
                 </Link>

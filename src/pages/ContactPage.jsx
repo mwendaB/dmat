@@ -124,10 +124,10 @@ const ContactPage = () => {
       <Box id="contactUs" sx={{position:'relative', backgroundColor: darkMode ? '#090808' : '#f6fbf6', color: darkMode ? 'white' : 'black', marginTop: '4%', }}>
         <Container >
           <Box sx={{ textAlign: 'center' }}>
-            <Box sx={{marginLeft:'2rem', fontSize:{xs:'50px', md:'100px'}, color:'#00c062'}}>
+            <Box sx={{marginLeft:'2rem', fontSize:{xs:'50px', md:'100px'}, color:'#DC143C'}}>
               <EmailIcon sx={{fontSize:'2rem'}}/> 
             </Box >
-            <Typography sx={{fontSize:{xs:'50px', md:'70px'}, fontWeight: '500', fontFamily:'Poppins', color:'#00c062'}}>
+            <Typography sx={{fontSize:{xs:'50px', md:'70px'}, fontWeight: '500', fontFamily:'Poppins', color:'#DC143C'}}>
               CONTACT US
             </Typography>
           </Box>
@@ -221,7 +221,7 @@ const ContactPage = () => {
                   <Grid item xs={12}>
                     <br></br>
                     <Box sx={{ textAlign: 'center',}}>
-                      <Button type="submit" disabled={submitting} sx={{fontFamily:'Inter', border: '1px solid black', color: 'black', backgroundColor:'#00c062', width:'150px', borderRadius:'20px', '&:hover': {backgroundColor:'#00c062', borderColor:'white',},}}>
+                      <Button type="submit" disabled={submitting} sx={{fontFamily:'Inter', border: '1px solid black', color: 'black', backgroundColor:'#DC143C', width:'150px', borderRadius:'20px', '&:hover': {backgroundColor:'#DC143C', borderColor:'white',},}}>
                         Submit
                       </Button>
                     </Box>

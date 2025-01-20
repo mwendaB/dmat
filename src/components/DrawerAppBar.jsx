@@ -93,7 +93,7 @@ function DrawerAppBar(props) {
      
         <Box sx={{  textAlign:'center',}} >
   
-          <ListItemButton sx={{display:'flex', justifyContent:'center',  margin:'auto', color:'white', '&:hover': {color:'#00c062'}, fontFamily:'Oranienbaum', }}>
+          <ListItemButton sx={{display:'flex', justifyContent:'center',  margin:'auto', color:'white', '&:hover': {color:'#DC143C'}, fontFamily:'Oranienbaum', }}>
             <GenLogoWhiteIcon className="logoTop"/>
           </ListItemButton>
         </Box>
@@ -102,7 +102,7 @@ function DrawerAppBar(props) {
         {navItems.map((element, index) => (
           <ListItem  key={index} disablePadding >
           <Link to={element.path} style={{ textDecoration: 'none', textAlign:'center', margin:'auto' }}>
-            <ListItemButton sx={{color:'white', '&:hover': {color:'#00c062'}, fontFamily:'Inter', fontSize:'1.5rem', textAlign:'center', }}>
+            <ListItemButton sx={{color:'white', '&:hover': {color:'#DC143C'}, fontFamily:'Inter', fontSize:'1.5rem', textAlign:'center', }}>
               {element.title}
             </ListItemButton>
           </Link>
@@ -125,7 +125,7 @@ function DrawerAppBar(props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }, color: '#00c062' , }}
+            sx={{ mr: 2, display: { sm: 'none' }, color: '#DC143C' , }}
           >
             <GenLogoWhiteIcon className="logoTop"/>
           </IconButton>
@@ -135,7 +135,7 @@ function DrawerAppBar(props) {
           <Box sx={{ display: {xs: 'none', sm: 'none', md: 'flex' }, marginLeft:'-20px'}}>
           <ListItem disablePadding>
               <HashLink smooth  to='/#home' style={{ textDecoration: 'none', scrollBehavior: 'smooth', }}>
-                <ListItemButton sx={{ color:'white', '&:hover': {color:'#00c062'}, fontFamily:'Oranienbaum', }}>
+                <ListItemButton sx={{ color:'white', '&:hover': {color:'#DC143C'}, fontFamily:'Oranienbaum', }}>
                   <GenLogoWhiteIcon className="logoTop"/>
                 </ListItemButton>
               </HashLink >
@@ -150,7 +150,7 @@ function DrawerAppBar(props) {
             {navItemsLeft.map((element, index) => (
               <ListItem  key={index}  sx={{}}>
               <HashLink smooth  to={element.path} style={{ textDecoration: 'none', scrollBehavior: 'smooth'}}>
-                <ListItemButton sx={{color:'white', '&:hover': {color:'#00c062'}, fontFamily:'Inter', fontSize:'0.9rem', }}>
+                <ListItemButton sx={{color:'white', '&:hover': {color:'#DC143C'}, fontFamily:'Inter', fontSize:'0.9rem', }}>
                   {element.title}
                 </ListItemButton>
               </HashLink >
@@ -163,7 +163,7 @@ function DrawerAppBar(props) {
           <Box sx={{ display: { xs: 'none', sm: 'none', md: 'flex', lg:"flex" }, marginLeft:'auto' }}>
             <ListItem sx={{marginRight:'15px'}}>
               <Link smooth  to="/contactUs" style={{ textAlign:'center', textDecoration: 'none', scrollBehavior: 'smooth'}}>
-                <ListItemButton sx={{width:'150px', px:'29px',  py:'18px', textAlign:'center', color: darkMode ? '#c9c7c7' : 'white', backgroundColor: darkMode ? '#212427' : 'black', border:'1px solid #383839',  borderRadius:'35px', transition: 'background-color 0.3s ease', '&:hover': {backgroundColor:'#00c062'}, '&:active': {backgroundColor:'#00c062'}, fontFamily:'Inter', fontSize:'1rem'}}>Contact Us</ListItemButton>
+                <ListItemButton sx={{width:'150px', px:'29px',  py:'18px', textAlign:'center', color: darkMode ? '#c9c7c7' : 'white', backgroundColor: darkMode ? '#212427' : 'black', border:'1px solid #383839',  borderRadius:'35px', transition: 'background-color 0.3s ease', '&:hover': {backgroundColor:'#DC143C'}, '&:active': {backgroundColor:'#DC143C'}, fontFamily:'Inter', fontSize:'1rem'}}>Contact Us</ListItemButton>
               </Link>
             </ListItem>
 

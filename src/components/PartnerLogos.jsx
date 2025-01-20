@@ -2,12 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Box, Typography } from '@mui/material';
 import styled from '@emotion/styled';
-import { Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, Logo9, Logo10, Logo11, Logo12,Logo1Dark,
-    Logo2Dark, Logo3Dark, Logo4Dark,Logo5Dark,Logo6Dark,Logo7Dark,Logo8Dark,Logo9Dark,Logo10Dark,Logo11Dark,Logo12Dark, } from '../assets/images';
+import { AmericanExpress, Chanel, Colgate,Diageo,Fonterra,Ford,GeneralMills,Honda,Ikea , Nike ,TimeWarner, Ups } from '../assets/images';
 
 
-const logos = [Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, Logo9, Logo10, Logo11, Logo12];
-const darkLogos = [Logo1Dark, Logo2Dark, Logo3Dark, Logo4Dark, Logo5Dark, Logo6Dark, Logo7Dark, Logo8Dark, Logo9Dark, Logo10Dark, Logo11Dark, Logo12Dark, Logo4Dark, Logo5Dark,];
+const logos = [AmericanExpress, Chanel, Colgate, Diageo, Fonterra, Ford, GeneralMills, Honda, Ikea, Nike, TimeWarner , Ups];
+const darkLogos = [AmericanExpress, Chanel, Colgate,Diageo,Fonterra,Ford,GeneralMills,Honda,Ikea , Nike ,TimeWarner, Ups];
 
 
 

@@ -46,7 +46,7 @@ const FAQs = () => {
       <Box sx={{display:'flex', alignItems:'center', justifyContent: 'center',}}>
 
         
-              <Typography variant="h4" sx={{ fontWeight: '600', fontFamily:'Poppins', color:'#00c062', textTransform: 'uppercase'}}>
+              <Typography variant="h4" sx={{ fontWeight: '600', fontFamily:'Poppins', color:'#DC143C', textTransform: 'uppercase'}}>
               FAQs
               </Typography>
               </Box>
@@ -75,7 +75,7 @@ const FAQs = () => {
       <br></br>
       <br></br>
       <Typography variant="h5" gutterBottom  sx={{fontFamily:'Inter',color:'#c9c7c7'}}>
-        Still have more question? <Link to='/contactUs' style={{color:'#00c062', textDecoration:'none'}}>Contact Us</Link>
+        Still have more question? <Link to='/contactUs' style={{color:'#DC143C', textDecoration:'none'}}>Contact Us</Link>
       </Typography>
       </Fade>
     </Container>

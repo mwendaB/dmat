@@ -15,10 +15,10 @@ const disc3 = "Elevate your marketing strategy with our robust analytics and rep
 const disc4 = "Engage your audience and create memorable experiences with our event and content marketing expertise. ";
 
 const projects = [
-  { id: 1, image: MarketImage3, title: 'Brand Strategy and Development', description: disc, icon: <DesignServicesIcon sx={{fontSize:'5rem', color:'#00c062'}}/> },
-  { id: 2, image: MarketImage4, title: 'Creative Digital Marketing', description: disc2, icon: <AllOutIcon sx={{fontSize:'5rem', color:'#00c062'}}/> },
-  { id: 3, image: MarketImage2, title: 'Marketing Analytics and Reporting', description: disc3, icon: <SupportAgentIcon sx={{fontSize:'5rem', color:'#00c062'}}/> },
-  { id: 4, image: MarketImage5, title: 'Event and Content Marketing', description: disc4, icon: <CategoryIcon sx={{fontSize:'5rem', color:'#00c062'}}/> },
+  { id: 1, image: MarketImage3, title: 'Brand Strategy and Development', description: disc, icon: <DesignServicesIcon sx={{fontSize:'5rem', color:'#DC143C'}}/> },
+  { id: 2, image: MarketImage4, title: 'Creative Digital Marketing', description: disc2, icon: <AllOutIcon sx={{fontSize:'5rem', color:'#DC143C'}}/> },
+  { id: 3, image: MarketImage2, title: 'Marketing Analytics and Reporting', description: disc3, icon: <SupportAgentIcon sx={{fontSize:'5rem', color:'#DC143C'}}/> },
+  { id: 4, image: MarketImage5, title: 'Event and Content Marketing', description: disc4, icon: <CategoryIcon sx={{fontSize:'5rem', color:'#DC143C'}}/> },
 ];
 
 const cardStyles = {
@@ -71,7 +71,7 @@ const Services = () => {
               <Box sx={{display:'flex', alignItems:'center', justifyContent: 'center',}}>
 
           
-              <Typography variant="h4" sx={{fontWeight: '600', fontFamily:'Poppins', color:'#00c062', textTransform: 'uppercase'}}>
+              <Typography variant="h4" sx={{fontWeight: '600', fontFamily:'Poppins', color:'#DC143C', textTransform: 'uppercase'}}>
               Our Services
               </Typography>
               </Box>

@@ -85,7 +85,7 @@ function ContactAppBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', transition: 'top 2.5s ease'  }}>
      
         <Box sx={{ textAlign:'center',}} >
-          <ListItemButton sx={{display:'flex', justifyContent:'center',  margin:'auto', color:'white', '&:hover': {color:'#00c062'}, fontFamily:'Oranienbaum', fontSize:'1.5rem', }}>
+          <ListItemButton sx={{display:'flex', justifyContent:'center',  margin:'auto', color:'white', '&:hover': {color:'#DC143C'}, fontFamily:'Oranienbaum', fontSize:'1.5rem', }}>
           <GenLogoWhiteIcon className="logoTop"/>
           </ListItemButton>
         </Box>
@@ -94,7 +94,7 @@ function ContactAppBar(props) {
         {navItems.map((element, index) => (
           <ListItem  key={index} disablePadding >
           <Link to={element.path} style={{ textDecoration: 'none', textAlign:'center', margin:'auto' }}>
-            <ListItemButton sx={{color:'white', '&:hover': {color:'#00c062'}, fontFamily:'Poppins', fontSize:'1.5rem', textAlign:'center', }}>
+            <ListItemButton sx={{color:'white', '&:hover': {color:'#DC143C'}, fontFamily:'Poppins', fontSize:'1.5rem', textAlign:'center', }}>
               {element.title}
             </ListItemButton>
           </Link>
@@ -116,7 +116,7 @@ function ContactAppBar(props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }, color: '#00c062' , }}
+            sx={{ mr: 2, display: { sm: 'none' }, color: '#DC143C' , }}
           >
             <GenLogoWhiteIcon className="logoTop"/>
           </IconButton>
@@ -126,7 +126,7 @@ function ContactAppBar(props) {
           <Box sx={{ display: {xs: 'none', sm: 'none', md: 'flex' }, marginLeft:'-20px'}}>
           <ListItem disablePadding>
               <HashLink smooth  to='/' style={{ textDecoration: 'none', scrollBehavior: 'smooth', }}>
-                <ListItemButton sx={{ color:'white', '&:hover': {color:'#00c062'}, fontFamily:'Poppins', }}>
+                <ListItemButton sx={{ color:'white', '&:hover': {color:'#DC143C'}, fontFamily:'Poppins', }}>
                 <GenLogoWhiteIcon className="logoTop"/>
                 </ListItemButton>
               </HashLink >
@@ -141,7 +141,7 @@ function ContactAppBar(props) {
             {navItemsRight.map((element, index) => (
               <ListItem  key={index} sx={{marginLeft:'-42px'}} >
                 <Link to={element.path} target="_blank" rel="noopener noreferrer">
-                  <ListItemButton sx={{color:'white', '&:hover': {color:'#00c062'},}}>
+                  <ListItemButton sx={{color:'white', '&:hover': {color:'#DC143C'},}}>
                     {element.icon}
                   </ListItemButton>
                 </Link>
